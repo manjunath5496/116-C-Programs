@@ -50,3 +50,40 @@ int main() {
 	
 ```
 ----------------------------------------
+
+# Question 3
+
+### **Question:**
+
+> ***Write a program to Find Difference of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+    int num1;
+	int num2;
+	int difference;
+
+    printf("Enter value of 1st number : ");
+	scanf("%d", &num1);
+
+	printf("\n\nEnter value of 2st number : ");
+	scanf("%d", &num2);
+
+	difference = num1 - num2;
+
+	printf("\n\n Difference of %d - %d = %d", num1, num2, difference);
+	
+	return 0;
+}
+	
+	
+	
+```
+----------------------------------------
+
+
