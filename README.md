@@ -37,7 +37,7 @@ int main() {
     printf("Enter value of 1st number : ");
 	scanf("%d", &num1);
 
-	printf("\n\nEnter value of 2st number : ");
+	printf("\n\nEnter value of 2nd number : ");
 	scanf("%d", &num2);
 
 	sum = num1 + num2;
@@ -71,7 +71,7 @@ int main() {
     printf("Enter value of 1st number : ");
 	scanf("%d", &num1);
 
-	printf("\n\nEnter value of 2st number : ");
+	printf("\n\nEnter value of 2nd number : ");
 	scanf("%d", &num2);
 
 	difference = num1 - num2;
@@ -106,7 +106,7 @@ int main() {
     printf("Enter value of 1st number : ");
 	scanf("%d", &num1);
 
-	printf("\n\nEnter value of 2st number : ");
+	printf("\n\nEnter value of 2nd number : ");
 	scanf("%d", &num2);
 
 	division = num1 / num2;
