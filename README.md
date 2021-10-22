@@ -86,4 +86,45 @@ int main() {
 ```
 ----------------------------------------
 
+# Question 4
+
+### **Question:**
+
+> ***Write a program to Find Division of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+    int num1;
+	int num2;
+	int division;
+
+    printf("Enter value of 1st number : ");
+	scanf("%d", &num1);
+
+	printf("\n\nEnter value of 2st number : ");
+	scanf("%d", &num2);
+
+	division = num1 / num2;
+
+	printf("\n\n Division of %d / %d = %d", num1, num2, division);
+	
+	return 0;
+}
+	
+	
+```
+----------------------------------------
+
+
+
+
+
+
+
+
 
