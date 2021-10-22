@@ -125,7 +125,7 @@ int main() {
 
 ### **Question:**
 
-> ***Write a program to Calculate Area and Circumfrence of Circle.***
+> ***Write a program to Calculate Area and Circumference of Circle.***
 
 ---------------------------------------
 
@@ -137,19 +137,19 @@ int main() {
     int radius;
 	static float PI = 3.142;
 	float area;
-	float circumfrence;
+	float Circumference;
 
 	printf("Enter the radius of Circle : ");
 	scanf("%d", &radius);
 
 	area = PI*radius*radius;
 
-	circumfrence = 2*PI*radius;
+	Circumference = 2*PI*radius;
 
 	printf("\n\nArea of circle with radius %d = %f  \n\n",radius, area);
 
 
-	printf("Circumference of circle with radius %d = %f  \n\n",radius, circumfrence);
+	printf("Circumference of circle with radius %d = %f  \n\n",radius, Circumference);
 
         return 0;
 }
