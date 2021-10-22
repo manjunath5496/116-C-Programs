@@ -8,12 +8,11 @@
 
 <strong>Solution: </strong>
 
-```C++ language
-#include<iostream>
-int main()
-{
-std::cout<<"Hello World!";
-return 0;
+```C language
+#include <stdio.h>
+int main() {
+   printf("Hello, World!");
+   return 0;
 }
 ```
 ----------------------------------------
