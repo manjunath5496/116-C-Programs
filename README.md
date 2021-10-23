@@ -1402,9 +1402,6 @@ double first, second;
     
      printf("\n\n Before Swapping => first number : %lf    second number : %lf ",  first,second);
      
-     
-   //Swapping logic
-   
    first = first + second;
    second = first - second;
    first = first - second;
