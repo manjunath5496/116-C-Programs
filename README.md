@@ -573,3 +573,41 @@ int main()
 
 ```
 ----------------------------------------
+
+# Question 16
+
+### **Question:**
+
+> ***Write a program to Calculate Surface area of Sphere.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+  int radius;
+  float PI = 3.141592;
+  float surfacearea;
+
+
+	printf("\n\n Enter the Radius of Sphere : ");
+	scanf("%d", &radius);
+    
+    
+    
+    surfacearea = 4*PI*radius*radius;
+
+
+	printf("\n\n Surface area of Sphere with radius as %d = %lf",radius,surfacearea);
+    return 0;
+}
+
+```
+----------------------------------------
+
+
+
