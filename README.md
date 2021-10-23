@@ -1253,8 +1253,8 @@ int main()
 {
 
   int algebra,geometry,arithmetic;
-   int sum;
-   float percentage;
+  int sum;
+  float percentage;
   
 
     
