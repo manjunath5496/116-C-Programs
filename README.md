@@ -1198,3 +1198,42 @@ return 0;
 }
 ```
 ----------------------------------------
+
+# Question 35
+
+### **Question:**
+
+> ***Write a program to Convert Pounds to Grams.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+
+{
+
+ float pound,gram;
+  
+
+
+    printf("\n\n Enter Weight in Pounds  : ");
+	scanf("%f", &pound);
+    
+    gram = pound*453.592;
+    
+    printf("\n\n %f Pound  =  %f Grams \n",pound,gram );
+
+
+return 0;
+
+}
+```
+----------------------------------------
+
+
+
+
