@@ -1419,6 +1419,47 @@ double first, second;
 ----------------------------------------
 
 
+# Question 40
+
+### **Question:**
+
+> ***Write a program to Reverse Digits of a Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+ 
+int main(){
+    int number, reverse = 0;
+    printf("Enter any number \n");
+    scanf("%d", &number);
+    while(number != 0){
+        reverse = (reverse * 10) + number % 10;
+        number = number/10;
+    }    
+    printf("Reversed number : %d\n", reverse);
+     
+    return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
