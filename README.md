@@ -774,7 +774,7 @@ int main()
 	printf("\n\n Enter Length in Meters  : ");
 	scanf("%f", &meter);
     
-    feet = (meter*3.26);
+    feet = (meter*3.2808);
     
     printf("\n\n %f meter in feet = %f  \n",meter,feet);
 
@@ -808,7 +808,7 @@ int main()
 	printf("\n\n Enter Length in Feet  : ");
 	scanf("%f", &feet);
     
-    meter = (feet/3.26);
+    meter = (feet/3.2808);
     
     printf("\n\n %f Feet in Meter = %f  \n",feet,meter);
 
