@@ -135,7 +135,7 @@ int main() {
 #include <stdio.h>
 int main() {
     int radius;
-	static float PI = 3.142;
+	static float PI = 3.141592;
 	float area;
 	float Circumference;
 
