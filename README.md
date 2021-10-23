@@ -159,7 +159,44 @@ int main() {
 ----------------------------------------
 
 
+# Question 6
 
+### **Question:**
+
+> ***Write a program to Calculate Area of Rectangle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int length;
+    int breadth;
+	long area;
+
+	printf(" Enter the Length of a Rectangle : ");
+	scanf("%d", &length);
+    
+    
+    printf("\n\n Enter the Breadth of a Rectangle : ");
+	scanf("%d", &breadth);
+    
+
+	area = length*breadth;
+
+
+	printf("\n\n Area of Rectangle with Length as %d and Breadth as %d  = %ld \n\n",length,breadth,area);
+
+
+    return 0;
+}
+	
+```
+----------------------------------------
 
 
 
