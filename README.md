@@ -334,7 +334,7 @@ int main()
 
 int main()
 {
-    const float PI = 3.14159265359;  
+    const float PI = 3.141592;  
           float radius, height, volume;  
   
     printf("Enter Radius and Height of the Cylinder\n");  
@@ -443,7 +443,7 @@ int main()
     int height;
     int radius;
     float volume;
-    float PI = 3.142;
+    float PI = 3.141592;
 
 	printf("\n\n Enter the Radius of Cone : ");
 	scanf("%d", &radius);
