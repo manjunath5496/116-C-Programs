@@ -349,3 +349,37 @@ int main()
 ```
 ----------------------------------------
 
+# Question 10
+
+### **Question:**
+
+> ***Write a program to Calculate Area of an Ellipse.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#define PI 3.141592
+
+int main()
+{
+    float major, minor, area;
+
+    printf("Enter length of major axis: ");
+    scanf("%f", &major);
+
+    printf("Enter length of minor axis: ");
+    scanf("%f", &minor);
+
+    area = PI * major * minor;
+
+    printf("Area of an ellipse = %0.4f", area);
+
+    return 0;
+}
+
+```
+----------------------------------------
+
