@@ -1061,6 +1061,38 @@ return 0;
 ----------------------------------------
 
 
+# Question 31
+
+### **Question:**
+
+> ***Write a program to convert GB to MB.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+
+int main()
+
+{
+
+double gb, mb;
+  
+    printf("\n\n Enter Length in Gigabyte  : ");
+	scanf("%lf", &gb);
+    
+    mb = gb*1024;
+    
+    printf("\n\n %lf Gb  =  %lf Mb  \n",gb,mb);
+
+
+return 0;
+
+}
+```
+----------------------------------------
 
 
 
