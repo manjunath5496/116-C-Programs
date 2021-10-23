@@ -1373,6 +1373,54 @@ int main()
 ----------------------------------------
 
 
+# Question 39
+
+### **Question:**
+
+> ***Write a program to Swap two numbers without using a Temporary variable.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+
+{
+
+double first, second;
+
+
+    printf("\n\n Enter first number : ");
+    scanf("%lf", &first);
+    
+   
+    printf("\n\n Enter second number : ");
+    scanf("%lf", &second);
+    
+     printf("\n\n Before Swapping => first number : %lf    second number : %lf ",  first,second);
+     
+     
+   //Swapping logic
+   
+   first = first + second;
+   second = first - second;
+   first = first - second;
+   
+    printf("\n\n After Swapping => first number : %lf    second number : %lf ",  first,second);
+  
+
+  return 0;
+
+}
+```
+----------------------------------------
+
+
+
+
 
 
 
