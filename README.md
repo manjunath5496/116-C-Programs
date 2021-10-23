@@ -395,7 +395,7 @@ int main()
 <strong>Solution: </strong>
 
 ```C language
-#include<stdio.h>
+#include <stdio.h>
 #define PI 3.141592
 
 int main()
@@ -435,7 +435,7 @@ int main()
 <strong>Solution: </strong>
 
 ```C language
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -475,7 +475,7 @@ int main()
 <strong>Solution: </strong>
 
 ```C language
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -494,6 +494,47 @@ int main()
 
 	printf("\n\n Volume of Sphere with Radius as %d = %f",radius,volume);
 
+
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 13
+
+### **Question:**
+
+> ***Write a program to Calculate Volume of Ellipsoid.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    
+    int r1,r2,r3;
+    float volume;
+    float PI = 3.141592;
+
+	printf("\n\n Enter the Radius of the ellipsoid of axis 1 : ");
+	scanf("%d", &r1);
+    
+    printf("\n\n Enter the Radius of the ellipsoid of axis 2 : ");
+	scanf("%d", &r2);
+    
+    printf("\n\n Enter the Radius of the ellipsoid of axis 3 : ");
+	scanf("%d", &r3);
+    
+    
+    
+    volume = (4/3)*(PI*r1*r2*r3);
+
+
+	printf("\n\n Volume of Ellipsoid with (r1,r2,r3) as (%d,%d,%d) = %f",r1,r2,r3,volume);
 
     return 0;
 }
