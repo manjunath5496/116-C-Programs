@@ -463,3 +463,39 @@ int main()
 
 ```
 ----------------------------------------
+
+# Question 12
+
+### **Question:**
+
+> ***Write a program to Calculate Volume of Sphere.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+
+int main()
+{
+    
+    int radius;
+    float volume;
+    float PI = 3.141592;
+
+	printf("\n\n Enter the Radius of Sphere : ");
+	scanf("%d", &radius);
+    
+    
+    
+    volume_of_sphere = (4/3)*(PI*radius*radius*radius);
+
+
+	printf("\n\n Volume of Sphere with Radius as %d = %f",radius,volume);
+
+
+    return 0;
+}
+```
+----------------------------------------
