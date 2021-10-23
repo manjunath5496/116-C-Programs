@@ -956,6 +956,40 @@ int main()
 ```
 ----------------------------------------
 
+# Question 28
+
+### **Question:**
+
+> ***Write a program to Convert Inch to Cm.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   
+  float inch;
+  float cm;
+
+
+	printf("\n\n Enter Length in inch  : ");
+	scanf("%f", &inch);
+    
+    cm = (2.54*inch);
+    
+    printf("\n\n %f inch in cm = %f  \n",inch,cm);
+
+
+    return 0;
+}
+
+
+```
+----------------------------------------
 
 
 
