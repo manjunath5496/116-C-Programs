@@ -284,5 +284,40 @@ int main()
 ----------------------------------------
 
 
+# Question 8
+
+### **Question:**
+
+> ***Write a program to Calculate Volume of Cube.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int side;
+	long volume;
+
+	printf(" Enter the side of cube : ");
+	scanf("%d", &side);
+    
+    
+    
+	volume = side*side*side;
+
+
+	printf("\n\n Volume of Cube with Side as %d = %ld ",side, volume);
+
+    return 0;
+}
+
+
+```
+----------------------------------------
+
 
 
