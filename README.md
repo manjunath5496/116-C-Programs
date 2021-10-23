@@ -1235,5 +1235,57 @@ return 0;
 ----------------------------------------
 
 
+# Question 36
+
+### **Question:**
+
+> ***Write a program to Calculate total marks and Percentage.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+
+{
+
+  int algebra,geometry,arithmetic;
+   int sum;
+   float percentage;
+  
+
+    
+    printf("\n\n Enter Marks Scored in Algebra  : ");
+    scanf("%d", &algebra);
+     
+    printf("\n\n Enter Marks Scored in Geometry  : ");
+    scanf("%d", &geometry);
+    
+    printf("\n\n Enter Marks Scored in Arithmetic  : ");
+    scanf("%d", &arithmetic);
+    
+   
+
+    sum = algebra+geometry+arithmetic;
+    
+    percentage =  (sum*100)/300;
+    
+    printf("\n\n Total marks scored  = %d /300", sum );
+    
+     printf("\n\n Percentage Scored  = %f", percentage );
+
+
+return 0;
+
+}
+```
+----------------------------------------
+
+
+
+
 
 
