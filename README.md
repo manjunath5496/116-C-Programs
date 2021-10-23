@@ -240,6 +240,48 @@ int main()
 ----------------------------------------
 
 
+# Question 7
+
+### **Question:**
+
+> ***Write a program to Calculate Area of Trapezoid.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int height;
+    int base1,base2;
+	long area;
+
+
+
+	printf(" Enter the Height of a Trapezoid : ");
+	scanf("%d", &height);
+    
+    
+    printf("\n\n Enter the Base 1 value : ");
+	scanf("%d", &base1);
+    
+    
+    printf("\n\n Enter the Base 2 value : ");
+    scanf("%d", &base2);
+    
+    
+
+	area = (height/2)*(base1+base2);
+
+
+	printf("\n\n Area of Trapezoid with Height as %d, Base 1 as %d and Base 2 as %d = %ld",height,base1,base2,area);
+    return 0;
+}
+```
+----------------------------------------
 
 
 
