@@ -610,4 +610,36 @@ int main()
 ----------------------------------------
 
 
+# Question 17
+
+### **Question:**
+
+> ***Write a program to Generate Multiplication Table.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+  int number;
+  int i = 1;
+
+	printf("\n\n Enter number to generate Multiplication Table : ");
+	scanf("%d", &number);
+    
+    printf("\n\nMultiplication Table of %d : \n",number);
+    for(i; i <11 ; i++) {
+        printf("%d x %d = %d \n\n",number,i, i*number);
+    }
+   
+    return 0;
+}
+
+
+```
+----------------------------------------
 
