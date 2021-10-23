@@ -319,5 +319,33 @@ int main()
 ```
 ----------------------------------------
 
+# Question 9
 
+### **Question:**
+
+> ***Write a program to Calculate Volume of Cylinder.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    const float PI = 3.14159265359;  
+          float radius, height, volume;  
+  
+    printf("Enter Radius and Height of the Cylinder\n");  
+    scanf("%f%f", &radius, &height);  
+  
+    volume = PI * radius * radius * height;  
+  
+    printf("Volume of Cylinder is %f\n", volume);
+
+    return 0;
+}
+```
+----------------------------------------
 
