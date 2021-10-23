@@ -1448,6 +1448,61 @@ int main(){
 ----------------------------------------
 
 
+# Question 41
+
+### **Question:**
+
+> ***Write a program to Calculate sum of Digits of Entered Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main()
+{
+   int n, m, sum = 0;
+
+   printf("Enter a number\n");
+   scanf("%d", &n);
+
+   m = n;
+
+   while (m != 0)
+   {
+  
+      sum = sum + m % 10;
+      m = m / 10;
+   }
+
+   printf("Sum of digits of %d = %d\n", n, sum);
+
+   return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
