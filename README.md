@@ -1085,7 +1085,7 @@ double gb, mb;
     
     mb = gb*1024;
     
-    printf("\n\n %lf Gb  =  %lf Mb  \n",gb,mb);
+    printf("\n\n %lf GB  =  %lf MB  \n",gb,mb);
 
 
 return 0;
