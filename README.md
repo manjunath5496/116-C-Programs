@@ -1038,7 +1038,7 @@ int main()
 <strong>Solution: </strong>
 
 ```C language
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 
@@ -1072,7 +1072,7 @@ return 0;
 <strong>Solution: </strong>
 
 ```C language
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 
