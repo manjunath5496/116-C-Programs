@@ -1289,7 +1289,7 @@ return 0;
 
 ### **Question:**
 
-> ***Write a program to to Calculate Discount Amount and Discounted Price.***
+> ***Write a program to Calculate Discount Amount and Discounted Price.***
 
 ---------------------------------------
 
@@ -1329,6 +1329,55 @@ return 0;
 }
 ```
 ----------------------------------------
+
+
+# Question 38
+
+### **Question:**
+
+> ***Write a program to Swap two numbers using a Temporary variable.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+
+{
+
+  double first, second, temp;
+
+    printf("\n\n Enter first number :   ");
+    scanf("%lf", &first);
+    
+   
+    printf("\n\n Enter second number : ");
+    scanf("%lf", &second);
+    
+     printf("\n\n Before Swapping => first number : %lf    second number : %lf ",  first, second);
+     
+
+   temp = first;
+   first = second;
+   second = temp;
+   
+    printf("\n\n After Swapping => first number : %lf    second number : %lf ",  first, second);
+  
+  return 0;
+
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
 
 
 
