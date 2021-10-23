@@ -383,3 +383,43 @@ int main()
 ```
 ----------------------------------------
 
+
+# Question 10
+
+### **Question:**
+
+> ***Write a program to Calculate Volume of Pyramid.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#define PI 3.141592
+
+int main()
+{
+    
+    int basearea;
+    int height;
+    float volume;
+
+	printf("\n\n Enter the Base Area of Pyramid : ");
+	scanf("%d", &basearea);
+    
+    printf("\n\n Enter the Height of Pyramid : ");
+	scanf("%d", &height);
+    
+    
+    volume = (1/3)*basearea*height;
+
+
+	printf("\n\n Volume of Pyramid with Base Area as %d and Height as %d = %f",basearea,height,volume);
+
+    return 0;
+}
+
+
+```
+----------------------------------------
