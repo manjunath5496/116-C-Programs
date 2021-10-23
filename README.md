@@ -1129,3 +1129,37 @@ return 0;
 }
 ```
 ----------------------------------------
+
+# Question 33
+
+### **Question:**
+
+> ***Write a program to Convert Kilogram to Pounds.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+
+{
+
+ float kg,lbs;
+  
+
+    printf("\n\n Enter Weight in Kilogram  : ");
+	scanf("%f", &kg);
+    
+    lbs = kg*2.20462;
+    
+    printf("\n\n %f Kg  =  %f Pounds \n",kg,lbs );
+
+
+return 0;
+
+}
+```
+----------------------------------------
