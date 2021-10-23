@@ -921,5 +921,42 @@ int main()
 ```
 ----------------------------------------
 
+# Question 25
+
+### **Question:**
+
+> ***Write a program to Convert Yard to Foot.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   
+  float yard;
+  float foot;
+  
+
+	printf("\n\n Enter Length in Yard  : ");
+	scanf("%f", &yard);
+    
+    foot = (3*yard);
+    
+    printf("\n\n %f Yard in Foot = %f  \n",yard,foot);
+
+
+    return 0;
+}
+
+
+```
+----------------------------------------
+
+
+
 
 
