@@ -852,3 +852,41 @@ int main()
 
 ```
 ----------------------------------------
+
+# Question 23
+
+### **Question:**
+
+> ***Write a program Convert Feet to millimeters.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   
+ float mm;
+  float feet;
+
+	printf("\n\n Enter Length in Feet  : ");
+	scanf("%f", &feet);
+    
+    mm = (feet * 304.8);
+    
+    printf("\n\n %f Feet in Millimeter = %f  \n",feet,mm);
+
+
+    return 0;
+}
+
+```
+----------------------------------------
+
+
+
+
+
