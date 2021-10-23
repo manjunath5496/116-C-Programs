@@ -824,7 +824,7 @@ int main()
 
 ### **Question:**
 
-> ***Write a program Convert Feet to Centimeters.***
+> ***Write a program to Convert Feet to Centimeters.***
 
 ---------------------------------------
 
@@ -857,7 +857,7 @@ int main()
 
 ### **Question:**
 
-> ***Write a program Convert Feet to millimeters.***
+> ***Write a program to Convert Feet to millimeters.***
 
 ---------------------------------------
 
@@ -887,6 +887,39 @@ int main()
 ----------------------------------------
 
 
+# Question 24
+
+### **Question:**
+
+> ***Write a program to Convert Kilometer to Miles.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   
+ float km;
+  float miles;
+  
+
+	printf("\n\n Enter Length in Kilometer  : ");
+	scanf("%f", &km);
+    
+    miles = (0.621371*km);
+    
+    printf("\n\n %f Kilometer in Millimeter = %f  \n",km,miles);
+
+
+    return 0;
+}
+
+```
+----------------------------------------
 
 
 
