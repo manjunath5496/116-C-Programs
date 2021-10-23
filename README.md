@@ -1095,4 +1095,37 @@ return 0;
 ----------------------------------------
 
 
+# Question 32
 
+### **Question:**
+
+> ***Write a program to convert KB to MB.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+
+int main()
+
+{
+
+double kb, mb;
+  
+
+	printf("\n\n Enter Length in Kilobyte  : ");
+	scanf("%lf", &kb);
+    
+    mb = (kb/1024);
+    
+    printf("\n\n %lf KB  =  %lf MB  \n",kb,mb);
+
+
+
+return 0;
+
+}
+```
+----------------------------------------
