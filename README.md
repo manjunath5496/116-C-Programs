@@ -658,7 +658,7 @@ int main()
 
 int main()
 {
-   int principal;
+  int principal;
   int rate;
   int duration;
   float simpleInterest;
