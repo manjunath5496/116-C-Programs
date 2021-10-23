@@ -1285,6 +1285,56 @@ return 0;
 ----------------------------------------
 
 
+# Question 37
+
+### **Question:**
+
+> ***Write a program to to Calculate Discount Amount and Discounted Price.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+
+{
+
+   float price;
+   float discountpercentage;
+   float discountamount;
+   float discountedprice;
+  
+
+    printf("\n\n Enter Price of Item  : ");
+    scanf("%f", &price);
+    
+   
+    printf("\n\n Enter Discount Percentage on Item  : ");
+    scanf("%f", &discountpercentage);
+    
+    
+    discountamount = (discountpercentage*price)/100;
+    
+    discountedprice = (price-discountamount);
+  
+    
+    printf("\n\nDiscount amount : %f \n\n",  discountamount);
+    printf("Discounted price : %f \n\n",  discountedprice);
+  
+return 0;
+
+}
+```
+----------------------------------------
+
+
+
+
+
+
 
 
 
