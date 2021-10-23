@@ -820,3 +820,35 @@ int main()
 ----------------------------------------
 
 
+# Question 22
+
+### **Question:**
+
+> ***Write a program Convert Feet to Centimeters.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   
+ float cm;
+  float feet;
+  
+
+	printf("\n\n Enter Length in Feet  : ");
+	scanf("%f", &feet);
+    
+    cm = 30.48 * feet;
+    
+    printf("\n\n %f Feet in Meter = %f  \n",feet,cm);
+
+    return 0;
+}
+
+```
+----------------------------------------
