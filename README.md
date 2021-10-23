@@ -682,3 +682,41 @@ int main()
 
 ```
 ----------------------------------------
+
+# Question 19
+
+### **Question:**
+
+> ***Write a program to Convert Degree to Fahrenheit.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   
+   float degree,fahrenheit;
+
+	printf("\n\n Enter Temperature in Degrees  : ");
+	scanf("%f", &degree);
+    
+    fahrenheit = (1.8*degree)+32;
+    
+    printf("\n\n %f Degree in Fahrenheit = :  %f  \n",degree,fahrenheit);
+
+    return 0;
+}
+
+
+```
+----------------------------------------
+
+
+
+
+
+
