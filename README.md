@@ -643,3 +643,42 @@ int main()
 ```
 ----------------------------------------
 
+# Question 18
+
+### **Question:**
+
+> ***Write a program to Compute Simple Interest.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   int principal;
+  int rate;
+  int duration;
+  float simpleInterest;
+
+	printf("\n\n Enter Principal Amount : ");
+	scanf("%d", &principal);
+    
+    printf("\n\n Enter Rate of Interest : ");
+	scanf("%d", &rate);
+    
+    printf("\n\n Enter Duration : ");
+    scanf("%d", &duration);
+    
+    simpleInterest = (principal*duration*rate)/100;
+    
+    printf("\n\nSimple Interest :  %lf  \n",simpleInterest);
+    return 0;
+}
+
+
+
+```
+----------------------------------------
