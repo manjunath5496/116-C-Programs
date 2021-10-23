@@ -786,6 +786,37 @@ int main()
 ----------------------------------------
 
 
+# Question 22
 
+### **Question:**
+
+> ***Write a program to Convert Feet to Meters.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   
+  float meter;
+  float feet;
+  
+	printf("\n\n Enter Length in Feet  : ");
+	scanf("%f", &feet);
+    
+    meter = (feet/3.26);
+    
+    printf("\n\n %f Feet in Meter = %f  \n",feet,meter);
+
+    return 0;
+}
+
+
+```
+----------------------------------------
 
 
