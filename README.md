@@ -1027,7 +1027,33 @@ int main()
 ```
 ----------------------------------------
 
+# Question 30
 
+### **Question:**
+
+> ***Write a program to convert MB to KB.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+
+int main()
+
+{
+
+double megabytes , kilobytes;
+printf("Please enter the amount of megabytes to convert.\n");
+scanf("%lf",&megabytes);
+kilobytes = megabytes * 1024;
+printf("There are %lf kilobytes in %lf megabytes.\n",kilobytes,megabytes);
+return 0;
+
+}
+```
+----------------------------------------
 
 
 
