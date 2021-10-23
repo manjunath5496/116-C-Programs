@@ -423,3 +423,43 @@ int main()
 
 ```
 ----------------------------------------
+
+# Question 11
+
+### **Question:**
+
+> ***Write a program to Calculate Volume of Cone.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+
+int main()
+{
+    
+    int height;
+    int radius;
+    float volume;
+    float PI = 3.142;
+
+	printf("\n\n Enter the Radius of Cone : ");
+	scanf("%d", &radius);
+    
+    printf("\n\n Enter the Height of Cone : ");
+	scanf("%d", &height);
+    
+    
+    volume = 1/3 * PI*radius*radius*height;
+
+
+	printf("\n\n Volume of Cone with Radius as %d and Height as %d = %f",radius,height,volume);
+
+
+    return 0;
+}
+
+```
+----------------------------------------
