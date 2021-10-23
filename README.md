@@ -200,6 +200,47 @@ int main()
 
 
 
+# Question 6
+
+### **Question:**
+
+> ***Write a program to Calculate Area of Parallelogram.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int height;
+    int base;
+	long area;
+
+
+	printf(" Enter the height of a Parallelogram : ");
+	scanf("%d", &height);
+    
+    
+    printf("\n\n Enter the Base of a Parallelogram : ");
+	scanf("%d", &base);
+    
+
+	area = height*base;
+
+
+	printf("\n\n Area of Parallelogram with Height as %d and Base as %d  = %ld \n\n",height,base,area);
+
+    return 0;
+}
+	
+```
+----------------------------------------
+
+
+
 
 
 
