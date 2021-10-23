@@ -1163,3 +1163,38 @@ return 0;
 }
 ```
 ----------------------------------------
+
+# Question 34
+
+### **Question:**
+
+> ***Write a program to Convert Kilogram to Ounce.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+
+{
+
+ float kg,ounce;
+  
+
+
+    printf("\n\n Enter Weight in Kilogram  : ");
+	scanf("%f", &kg);
+    
+    ounce = kg*35.274;
+    
+    printf("\n\n %f Kg  =  %f Ounce \n",kg,ounce );
+
+
+return 0;
+
+}
+```
+----------------------------------------
