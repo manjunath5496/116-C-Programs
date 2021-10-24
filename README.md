@@ -2802,31 +2802,35 @@ int main()
 
 ### **Question:**
 
-> ***Write a program to convert specified days into years, weeks and days.***
+> ***Write a program to Check the password until it is correct.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
 ```C language
-#include <stdio.h> 
-int main()
-{
-    int days, years, weeks;
+#include <stdio.h>
+int main() {
+	int pass, a;	
 
-  printf("Enter number of days\n");  
-    scanf("%d", &days); 
-
-    years = days/365; 
-    weeks = (days % 365)/7;
-    days = days- ((years*365) + (weeks*7));
-
-    printf("Years: %d\n", years);
-    printf("Weeks: %d\n", weeks);
-    printf("Days: %d \n", days);
-
-    return 0;
-}
+	while (a!=0)
+	{
+	printf("\nInput the password: ");
+	scanf("%d",&pass);	
+	
+	if (pass==1988)
+	{
+		printf("Correct password");
+		a=0;
+    }
+    else
+    {
+       printf("Wrong password, try again");       
+	}
+	printf("\n");
+   }
+	return 0;
+} 
 ```
 ----------------------------------------
 
