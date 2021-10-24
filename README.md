@@ -2655,7 +2655,28 @@ return 0;
 ----------------------------------------
 
 
+# Question 80
 
+### **Question:**
+
+> ***Write a program to find the size of data types.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+    printf("Size of char: %ld byte\n",sizeof(char));
+    printf("Size of int: %ld bytes\n",sizeof(int));
+    printf("Size of float: %ld bytes\n",sizeof(float));
+    printf("Size of double: %ld bytes", sizeof(double));
+    return 0;
+}
+```
+----------------------------------------
 
 
 
