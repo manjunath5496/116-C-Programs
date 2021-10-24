@@ -2743,6 +2743,92 @@ int main()
 ```
 ----------------------------------------
 
+# Question 83
+
+### **Question:**
+
+> ***Write a program to print your name, date of birth and email address.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h> 
+ int main()  
+  {
+     printf("Name   : Albert Einstein\n"); 
+     printf("DOB    : 14 March 1879\n"); 
+     printf("Email : einstein@physics.com\n"); 
+     return(0); 
+  }
+```
+----------------------------------------
+
+# Question 84
+
+### **Question:**
+
+> ***Write a program to convert specified days into years, weeks and days.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h> 
+int main()
+{
+    int days, years, weeks;
+
+  printf("Enter number of days\n");  
+    scanf("%d", &days); 
+
+    years = days/365; 
+    weeks = (days % 365)/7;
+    days = days- ((years*365) + (weeks*7));
+
+    printf("Years: %d\n", years);
+    printf("Weeks: %d\n", weeks);
+    printf("Days: %d \n", days);
+
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 85
+
+### **Question:**
+
+> ***Write a program to convert specified days into years, weeks and days.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h> 
+int main()
+{
+    int days, years, weeks;
+
+  printf("Enter number of days\n");  
+    scanf("%d", &days); 
+
+    years = days/365; 
+    weeks = (days % 365)/7;
+    days = days- ((years*365) + (weeks*7));
+
+    printf("Years: %d\n", years);
+    printf("Weeks: %d\n", weeks);
+    printf("Days: %d \n", days);
+
+    return 0;
+}
+```
+----------------------------------------
 
 
 
