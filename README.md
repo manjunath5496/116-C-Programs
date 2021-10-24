@@ -2678,6 +2678,70 @@ int main()
 ```
 ----------------------------------------
 
+# Question 81
+
+### **Question:**
+
+> ***Write a program to check whether a triangle is valid (given sides of triangle).***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>  
+   
+int main() {  
+    int side1, side2, side3;  
+   
+    printf("Enter Length of Three Sides of a Triangle\n");  
+    scanf("%d %d %d", &side1, &side2, &side3);     
+   
+    if((side1 + side2 > side3)&&(side2 + side3 > side1) &&(side3 + side1 > side2)) {  
+        printf("It is a Valid Triangle\n");  
+    } else {  
+        printf("It is an invalid Triangle");  
+    }  
+   
+    return 0;  
+}
+```
+----------------------------------------
+
+# Question 82
+
+### **Question:**
+
+> ***Write a program to check whether a triangle is valid (given angles of triangle).***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+ 
+int main()
+{
+	int angle1, angle2, angle3, Sum;
+ 
+  	printf("\n Enter Three Angles of a Triangle : ");
+  	scanf("%d%d%d", &angle1, &angle2, &angle3);
+  	
+  	sum = angle1 + angle2 + angle3;
+  	
+  	if(sum == 180)
+  	{
+  		printf("\n This is a Valid Triangle");
+ 	}
+	else
+	{
+		printf("\n This is an Invalid Triangle");
+	}  
+ 	return 0;
+ }
+```
+----------------------------------------
 
 
 
