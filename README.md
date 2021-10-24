@@ -2529,6 +2529,130 @@ return 0;
 ```
 ----------------------------------------
 
+# Question 76
+
+### **Question:**
+
+> ***Write a program to check whether a character is an alphabet or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#include <ctype.h>
+int main()
+{
+int a =2;
+if(isalpha(a))
+{
+printf("The character a is an alphabet");
+}
+else
+{
+printf("The character a is not an alphabet");
+}
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 77
+
+### **Question:**
+
+> ***Write a program to calculate the discounted price and the total price after discount</br>
+Given:</br>
+If purchase value is greater than 1000, 10% discount</br>
+If purchase value is greater than 5000, 20% discount</br>
+If purchase value is greater than 10000, 30% discount.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+double PV;
+printf("Enter purchased value:");
+scanf("%lf", &PV);
+if(PV>1000)
+{
+printf("\n Discount=%lf", PV* 0.1);
+printf("\n Total=%lf", PV - PV* 0.1);
+}
+else if(PV>5000)
+{
+printf("\n Discount =%lf", PV* 0.2);
+printf("\n Total=%lf", PV - PV* 0.1);
+}
+else
+{
+printf("\n Discount=%lf", PV* 0.3);
+printf("\n Total=%lf", PV - PV* 0.1);
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 78
+
+### **Question:**
+
+> ***Write a program to print the first ten natural numbers using while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int i = 1;
+while (i<=10)
+{
+printf("%d\n", i++);
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 79
+
+### **Question:**
+
+> ***Write a program to check whether the person is a senior citizen or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int age;
+printf("Enter age:");
+scanf("%d", &age);
+if(age>=60)
+{
+printf("senior citizen");
+}
+else
+{
+printf("not a senior citizen");
+}
+return 0;
+}
+```
+----------------------------------------
 
 
 
