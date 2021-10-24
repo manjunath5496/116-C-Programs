@@ -2131,6 +2131,404 @@ int main() {
 }
 ```
 ----------------------------------------
+# Question 61
+
+### **Question:**
+
+> ***Write a program to find the square of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int a, b;
+a=2;
+b = pow((a), 2);
+printf("The square of a = %d", b);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 62
+
+### **Question:**
+
+> ***Write a program to print the average of the elements in the array.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int i, avg, sum = 0;
+int num [5] = {16, 18, 20, 25, 36};
+for(i=0; i<5; i++)
+sum = sum + num [i];
+avg = sum/5;
+printf("Sum of the Elements in the array = %d", sum);
+printf("Average of the elements in the array= %d", avg);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 63
+
+### **Question:**
+
+> ***Write a program to find the greatest of two numbers using pointers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int x, y, *p, *q;
+printf("Enter any integer:");
+scanf("%d", &x);
+printf("Enter any integer:");
+scanf("%d", &y);
+p = &x;
+q = &y;
+if(*p>*q)
+{
+printf("x is greater than y");
+}
+if(*q>*p)
+{
+printf("y is greater than x");
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 64
+
+### **Question:**
+
+> ***Write a program to print the address of x and the value assigned to x.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main()
+{
+int x, *p;
+x = 1;
+p = &x;
+printf("The address of the variable x =%d", p);
+printf("The value of the variable x =%d", *p);
+return 0;
+} 
+```
+----------------------------------------
+
+# Question 65
+
+### **Question:**
+
+> ***Write a program to print the first 10 numbers starting from one together with their squares and cubes.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int i;
+for( i=1; i<=10; i++)
+printf("Number=%d its square=%d its cube=%d\n", i , i*i, i*i*i);
+return 0;
+} 
+```
+----------------------------------------
+
+# Question 66
+
+### **Question:**
+
+> ***Write a program:</br>
+If you enter a character M</br>
+Output must be: ch = M.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+char M;
+printf("Enter any character:");
+scanf("%c", &M);
+printf("ch=%c", M);
+return 0;
+} 
+```
+----------------------------------------
+
+
+# Question 67
+
+### **Question:**
+
+> ***Write a program to print the product of the first 10 digits.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int i, product = 1;
+for( i=1; i<=10; i++)
+product = product * i;
+printf("The product of the first 10 digits =%d", product);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 68
+
+### **Question:**
+
+> ***Write a program to check the equivalence of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int x, y;
+printf("Enter any number:");
+scanf ("%d", &x);
+printf("Enter any number:");
+scanf ("%d", &y);
+if(x-y==0)
+{
+printf("The two numbers are equivalent");
+}
+else
+{
+printf("The two numbers are not equivalent");
+}
+return 0;
+}
+```
+----------------------------------------
+
+# Question 69
+
+### **Question:**
+
+> ***Write a program to print the characters from A to Z.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+char a;
+for( a='A'; a<='Z'; a++)
+printf("%c\n", a);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 70
+
+### **Question:**
+
+> ***Write a program to find the incremented and decremented values of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int a, b, c, d, e, f;
+a = 10;
+b=12;
+c=a+1;
+d=b+1;
+e=a-1;
+f=b-1;
+printf("The incremented value of a =%d", c);
+printf("The incremented value of b =%d", d);
+printf("The decremented value of a =%d", e);
+printf("The decremented value of b =%d", f);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 71
+
+### **Question:**
+
+> ***Write a program to print the output:</br>
+Einstein [0] = E</br>
+Einstein [1] = I</br>
+Einstein [2] = N</br>
+Einstein [3] = S</br>
+Einstein [4] = T</br>
+Einstein [5] = E</br>
+Einstein [6] = I</br>
+Einstein [7] = N</br>***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int i;
+char name [8] = {' E' , ' I', ' N', ' S', ' T ', ' E', ' I', ' N'};
+for(i=0; i<8; i++)
+printf("\n Element [%d] = %c", i, name[i]);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 72
+
+### **Question:**
+
+> ***Write a program to find square of a number using functions.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int square();
+int main()
+{
+int answer;
+answer = square();
+printf("Square of the given number=%d", answer);
+return(0);
+}
+int square()
+{
+int x;
+printf("Enter any integer:");
+scanf("%d", &x);
+return x*x;
+}
+```
+----------------------------------------
+
+# Question 73
+
+### **Question:**
+
+> ***Write a program To print "hello world" 10 times.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int i;
+for (i =1; i<=10; i ++)
+printf("hello world \n");
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 74
+
+### **Question:**
+
+> ***Write a program to print first 5 numbers using do while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int i =1;
+do
+{
+printf("%d\n", i++);
+} while (i<=5);
+return 0;
+}
+```
+----------------------------------------
+
+# Question 75
+
+### **Question:**
+
+> ***Write a program to print the output:</br>
+body [b] = b</br>
+body [o] = o</br>
+body [d] = d</br>
+body [y] = y</br>***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main()
+{
+char i;
+char body [4] = {'b', 'o', 'd', 'y'};
+for(i=0; i<4; i++)
+printf("\n body[%c] = %c", body[i] , body[i]);
+return 0;
+}
+```
+----------------------------------------
+
 
 
 
