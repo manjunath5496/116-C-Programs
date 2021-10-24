@@ -1693,6 +1693,48 @@ int main()
 ----------------------------------------
 
 
+# Question 47
+
+### **Question:**
+
+> ***Write a program to Check enterned number is positive or negative.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+ 
+int main()
+{
+    int number;
+
+    printf("\n\n Enter a number : ");
+    scanf("%d", &number);
+
+    if(number > 0) {
+      printf("\n\n Entered number %d is a positive number ",number);  
+        
+    }
+    else if(number < 0) {
+         printf("\n\n Entered number %d is a negative number ",number);  
+        
+    }
+    
+    else {
+    
+         printf("\n\n Entered number %d is neither positive nor negative ",number);
+    }
+
+    return 0;
+}
+```
+----------------------------------------
+
+
+
+
 
 
 
