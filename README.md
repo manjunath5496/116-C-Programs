@@ -2835,6 +2835,91 @@ int main() {
 ----------------------------------------
 
 
+# Question 86
+
+### **Question:**
+
+> ***Write a program to Read an integer and find all its divisor.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+	int x, i;
+	printf("\nEnter a number : ");
+	scanf("%d", &x);
+	printf("All the divisor of %d are: ", x);
+	for(i = 1; i <= x; i++) {
+		if((x%i) == 0){
+			printf("\n%d", i);
+			printf("\n");
+		}
+	}
+	
+	return 0;
+}
+```
+----------------------------------------
+
+# Question 87
+
+### **Question:**
+
+> ***Write a program to shift given data by two bits to the left.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+int main()
+{
+int a, b;
+printf("Enter a integer : ");
+scanf("%d",&a);
+printf("\nInteger value = %d ",a);
+a<<=2;
+b=a;
+printf("\nThe left shifted data is = %d ",b);
+return 0;
+}
+```
+----------------------------------------
+
+
+# Question 88
+
+### **Question:**
+
+> ***Write a program to Find Absolute Value of a Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>  
+#include<stdlib.h>  
+  
+int main()  
+{  
+    int num;  
+  
+    printf("Enter a positive or negative number\n");  
+    scanf("%d", &num);  
+  
+    printf("Absolute Value of |%d| is %d\n", num, abs(num));  
+  
+    return 0;  
+}  
+```
+----------------------------------------
+
+
 
 
 
