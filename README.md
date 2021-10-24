@@ -1557,6 +1557,48 @@ int main()
 
 
 
+# Question 44
+
+### **Question:**
+
+> ***Write a program to Check Entered Number is a Leap Year or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+  
+int main()
+{
+   
+   int year;
+  
+
+    printf("\n\n Enter a Number : ");
+    scanf("%d", &year);
+
+
+   if ((year % 400 == 0) || ( ( year % 100 != 0) && (year % 4 == 0 ))) {
+       
+       printf("\n\n %d is a leap year!",year);
+   }
+   else {
+       
+       printf("\n\n %d is not a leap year!!",year);
+   }
+   
+  
+ 
+    return 0;
+}
+```
+----------------------------------------
+
+
+
+
 
 
 
