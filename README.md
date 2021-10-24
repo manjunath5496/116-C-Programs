@@ -1697,7 +1697,7 @@ int main()
 
 ### **Question:**
 
-> ***Write a program to Check enterned number is positive or negative.***
+> ***Write a program to Check Entered number is positive or negative.***
 
 ---------------------------------------
 
