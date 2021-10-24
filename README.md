@@ -1631,6 +1631,69 @@ int main()
 ----------------------------------------
 
 
+# Question 46
+
+### **Question:**
+
+> ***Write a program to Display day of week using switch case.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+ 
+int main()
+{
+    int day;
+
+    printf("\n\n Enter Day (1 to 7) : ");
+    scanf("%d", &day);
+
+    
+  switch(day)  {
+
+     case 1:
+    printf("\n\n The 1st day of week is : Sunday");
+     break;
+     
+      case 2:
+    printf("\n\n The 2nd day of week is : Monday");
+     break;
+     
+      case 3:
+    printf("\n\n The 3rd day of week is : Tuesday");
+     break;
+     
+      case 4:
+    printf("\n\n The 4th day of week is : Wednesday");
+     break; 
+     
+     case 5:
+    printf("\n\n The 5th day of week is : Thursday");
+     break;
+     
+      case 6:
+    printf("\n\n The 6th day of week is : Friday");
+     break;
+     
+      case 7:
+    printf("\n\n The 7th day of week is : Saturday");
+     break;
+     
+   default:
+    printf("Invalid input!!! ..... ");
+
+}
+      
+    return 0;
+}
+```
+----------------------------------------
+
+
+
 
 
 
