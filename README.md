@@ -1985,7 +1985,91 @@ int main()
 ```
 ----------------------------------------
 
+# Question 56
 
+### **Question:**
+
+> ***Write a program to Compare Two Strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+   char a[100], b[100];
+
+   printf("Enter a string\n");
+   scanf("%s", a);
+
+   printf("Enter a string\n");
+    scanf("%s", b);
+
+   if (strcmp(a,b) == 0) {
+      printf("The strings are equal.\n");
+   }
+   else {
+      printf("The strings are not equal.\n");
+}
+   return 0;
+}
+```
+----------------------------------------
+
+# Question 57
+
+### **Question:**
+
+> ***Write a program to Convert Lowercase to Uppercase.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <ctype.h>
+#include <stdio.h>
+ 
+int main()
+{
+    char ch;
+ 
+    ch = 'g';
+    printf("%c in uppercase is represented as  %c", ch, toupper(ch));
+ 
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 58
+
+### **Question:**
+
+> ***Write a program to Convert Uppercase to Lowercase.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <ctype.h>
+#include <stdio.h>
+ 
+int main()
+{
+    char ch;
+ 
+    ch = 'G';
+    printf("%c in lowercase is represented as  %c", ch, tolower(ch));
+ 
+    return 0;
+}
+```
+----------------------------------------
 
 
 
