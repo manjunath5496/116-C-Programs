@@ -1959,122 +1959,31 @@ int main()
 ```
 ----------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Question 55
+
+### **Question:**
+
+> ***Write a program to Print ASCII Value of entered Alphabet.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    char ch;
+    int i;
+    printf("Enter a Alphabet: ");
+    scanf("%c", &ch);
+    i = ch;
+    printf("\nASCII Value of %c = %d", ch, i);
+    return 0;
+}
+```
+----------------------------------------
 
 
 
