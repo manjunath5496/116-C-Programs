@@ -2723,7 +2723,7 @@ int main() {
  
 int main()
 {
-	int angle1, angle2, angle3, Sum;
+	int angle1, angle2, angle3, sum;
  
   	printf("\n Enter Three Angles of a Triangle : ");
   	scanf("%d%d%d", &angle1, &angle2, &angle3);
