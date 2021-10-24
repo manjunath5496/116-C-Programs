@@ -1935,6 +1935,37 @@ int main()
 ```
 ----------------------------------------
 
+# Question 54
+
+### **Question:**
+
+> ***Write a program to Get Input from User.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter the Number: ");
+    scanf("%d", &num);
+    printf("\nYou've entered: %d", num);
+    return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
+
+
 
 
 
