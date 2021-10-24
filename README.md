@@ -2071,6 +2071,66 @@ int main()
 ```
 ----------------------------------------
 
+# Question 59
+
+### **Question:**
+
+> ***Write a program to find the Average of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main()
+{
+    int num1, num2;
+    float avg;
+
+    printf("Enter first number: ");
+    scanf("%d",&num1);
+    printf("Enter second number: ");
+    scanf("%d",&num2);
+
+    avg= (float)(num1+num2)/2;
+
+    printf("Average of %d and %d is: %.2f",num1,num2,avg);
+
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 60
+
+### **Question:**
+
+> ***Write a program to find Quotient and Remainder.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+    int dividend, divisor, quotient, remainder;
+    printf("Enter dividend: ");
+    scanf("%d", &dividend);
+    printf("Enter divisor: ");
+    scanf("%d", &divisor);
+
+    quotient = dividend / divisor;
+
+    remainder = dividend % divisor;
+
+    printf("Quotient = %d\n", quotient);
+    printf("Remainder = %d", remainder);
+    return 0;
+}
+```
+----------------------------------------
 
 
 
