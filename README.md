@@ -1839,6 +1839,43 @@ int main()
 ```
 ----------------------------------------
 
+# Question 51
+
+### **Question:**
+
+> ***Write a program to Concatenate Two Strings.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+  char a[1000], b[1000];
+
+  printf("Enter the first string\n");
+  scanf("%s", a);
+
+  printf("Enter the second string\n");
+  scanf("%s", b);
+
+  strcat(a, b);
+
+  printf("String obtained on concatenation: %s\n", a);
+
+  return 0;
+}
+```
+----------------------------------------
+
+
+
+
+
+
 
 
 
