@@ -3032,6 +3032,92 @@ int main() {
 ```
 ----------------------------------------
 
+# Question 92
+
+### **Question:**
+
+> ***Write a program to illustrate the bitwise operators.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+
+int main() {
+    int a, b;
+     a=125; 
+     b=35;
+     a=a>>1;
+   printf("After right-shifting by 1, a=%d\n", a);
+     b=b<<2;
+   printf("After left-shifting by 2, b=%d\n", b);
+   return(0);
+}
+
+```
+----------------------------------------
+
+# Question 93
+
+### **Question:**
+
+> ***Write a program to illustrate the ternary operation.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+
+/* 
+
+c will be assigned the value of a
+if a is less than b. 
+Otherwise, it will be assigned the value of b
+
+*/
+
+int main() {
+    int a = 10, b = 20, c;
+
+    c = (a < b) ? a : b;
+
+    printf("%d", c);
+   return(0);
+}
+```
+----------------------------------------
+
+
+# Question 94
+
+### **Question:**
+
+> ***Write a program to accept a character from the keyboard and print "yes" if it is equal to y. Otherwise print "No".***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+
+int main() {
+char ch;
+printf ("Enter a character \n");
+ch = getchar ();
+if (ch == 'y' || ch == 'Y')
+printf ("yes\n");
+else
+printf ("No\n");
+   return(0);
+}
+```
+----------------------------------------
+
 
 
 
