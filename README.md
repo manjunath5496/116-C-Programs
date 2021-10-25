@@ -3316,7 +3316,7 @@ int main(){
 
 ### **Question:**
 
-> ***Write a program to print ASCII values of all the letters of the English alphabet from A to Z .***
+> ***Write a program to print ASCII values of all the letters of the English alphabet from A to Z.***
 
 ---------------------------------------
 
