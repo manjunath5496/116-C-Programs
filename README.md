@@ -3609,7 +3609,7 @@ int main()
     char a;
     printf( "Enter a character : ");
     scanf( "%c", &a );
-    if( isalnum(a) ) {
+    if(isalnum(a)) {
         printf( "%c is an alphanumeric character.", a );
     }
     else
@@ -3640,7 +3640,7 @@ int main()
     char a;
     printf( "Enter a character : ");
     scanf( "%c", &a );
-    if( ispunct(a) ) {
+    if(ispunct(a)) {
         printf( "%c is an punctuation character.", a );
     }
     else
@@ -3671,7 +3671,7 @@ int main()
     char a;
     printf( "Enter a character : ");
     scanf( "%c", &a );
-    if( isgraph(a) ) {
+    if(isgraph(a)) {
         printf( "%c is a character with graphical representation.", a );
     }
     else
