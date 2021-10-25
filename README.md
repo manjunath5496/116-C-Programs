@@ -3590,7 +3590,67 @@ int main()
 ----------------------------------------
 
 
+# Question 109
 
+### **Question:**
+
+> ***Write a program to check whether the entered character is alphanumeric or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+ 
+int main()
+{
+    char a;
+    printf( "Enter a character : ");
+    scanf( "%c", &a );
+    if( isalnum(a) ) {
+        printf( "%c is an alphanumeric character.", a );
+    }
+    else
+    {
+        printf( "%c is NOT an alphanumeric character.", a );
+    }
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 110
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is punctuation character or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+ 
+int main()
+{
+    char a;
+    printf( "Enter a character : ");
+    scanf( "%c", &a );
+    if( ispunct(a) ) {
+        printf( "%c is an punctuation character.", a );
+    }
+    else
+    {
+        printf( "%c is NOT an punctuation character.", a );
+    }
+    return 0;
+}
+```
+----------------------------------------
 
 
 
