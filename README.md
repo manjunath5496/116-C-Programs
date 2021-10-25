@@ -3712,7 +3712,7 @@ int main()
 
 ### **Question:**
 
-> ***Write a program to check whether the entered character is a hexadecimal digit character or not..***
+> ***Write a program to check whether the entered character is a hexadecimal digit character or not.***
 
 ---------------------------------------
 
