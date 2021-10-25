@@ -3694,8 +3694,8 @@ int main()
 <strong>Solution: </strong>
 
 ```C language
-#include <ctype.h>
 #include <stdio.h>
+#include <ctype.h>
 int main()
 {
    int i;
