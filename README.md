@@ -3406,7 +3406,40 @@ int main()
 ----------------------------------------
 
 
+# Question 105
 
+### **Question:**
+
+> ***Write a program to find maximum number using switch case.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2;
+
+
+    printf("Enter two numbers : ");
+    scanf("%d%d", &num1, &num2);
+
+    switch(num1 > num2)
+    {
+        case 0: printf("%d is Maximum number", num2);
+            break;
+
+        case 1: printf("%d is Maximum number", num1);
+            break;
+    }
+
+    return 0;
+}
+```
+----------------------------------------
 
 
 
