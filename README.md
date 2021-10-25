@@ -3312,6 +3312,99 @@ int main(){
 
 ```
 ----------------------------------------
+# Question 102
+
+### **Question:**
+
+> ***Write a program to print ASCII values of all the letters of the English alphabet from A to Z .***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    
+    for(i='A'; i<='Z'; i++)
+    {
+        printf("ASCII value of %c = %d\n", i, i);
+    }
+
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 103
+
+### **Question:**
+
+> ***Write a program to find sum of even numbers between 1 to n.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int i, num, sum=0;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    for(i=2; i<=num; i=i+2)
+    {
+        
+        sum = sum + i;
+    }
+    printf("Sum of all even number between 1 to %d: %d", num, sum);
+
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 104
+
+### **Question:**
+
+> ***Write a program to find sum of odd numbers between 1 to n.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+    int i, num, sum=0;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    for(i=1; i<=num; i=i+2)
+    {
+        
+        sum = sum + i;
+    }
+    printf("Sum of all odd number between 1 to %d: %d", num, sum);
+
+    return 0;
+}
+
+```
+----------------------------------------
+
 
 
 
