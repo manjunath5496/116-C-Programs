@@ -3197,6 +3197,89 @@ int main()
 ```
 ----------------------------------------
 
+# Question 98
+
+### **Question:**
+
+> ***Write a program to Check Whether a Number is Even or Odd.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter a number : ");
+    scanf("%d", &num);
+    if(num % 2 == 0)
+        printf("%d is even.", num);
+    else
+        printf("%d is odd.", num);
+    
+    return 0;
+}
+
+```
+----------------------------------------
+
+# Question 99
+
+### **Question:**
+
+> ***Write a program to multiply given number by 4 using bitwise operators.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+    long number, tempnum;
+    printf("Enter an integer \n");
+    scanf("%ld", &number);
+    tempnum = number;
+    number = number << 2;
+    printf("%ld x 4 = %ld\n", tempnum, number);
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 100
+
+### **Question:**
+
+> ***Write a program to check whether a number is power of 2 or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main() {
+    int num;
+
+   printf("Enter a number : ");
+   scanf("%d", &num);
+
+   if((num != 0) && ((num &(num - 1)) == 0)) {
+      printf("\n%d is a power of 2", num);
+}
+   else {
+      printf("\n%d is not a power of 2\n", num);
+   }
+
+ return 0;
+   
+}
+
+```
+----------------------------------------
 
 
 
