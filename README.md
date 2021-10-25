@@ -3494,7 +3494,64 @@ int main() {
 ```
 ----------------------------------------
 
+# Question 106
 
+### **Question:**
+
+> ***Write a program to find Square Root of a Number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+   int number;
+   double result;
+
+   printf("Enter any integer number: ");
+   scanf("%d",&number);
+
+   result = sqrt(number);
+   printf("Square root of %d is %.2lf",number, result);
+
+   return 0;
+}
+```
+----------------------------------------
+
+# Question 107
+
+### **Question:**
+
+> ***Write a program to Find Power of a Number Using Library Function.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<math.h>
+
+ int main()
+ {
+     int base, exponent;
+     long power;
+
+     printf("Enter base and Exponent: ");
+     scanf("%d %d", &base, &exponent);
+
+     power = pow(base,exponent);
+
+     printf("Result = %ld",power);
+     return 0;
+ }
+```
+----------------------------------------
 
 
 
