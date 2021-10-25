@@ -3740,6 +3740,67 @@ int main()
 ```
 ----------------------------------------
 
+# Question 114
+
+### **Question:**
+
+> ***Write a program to Print ASCII value of All Control characters.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#include <ctype.h>
+
+int main()
+{
+    int i;
+
+    printf("The ASCII value of all control characters are:\n");
+    for (i=0; i<=127; ++i)
+    {
+        if (iscntrl(i)!=0)
+            printf("\n %d ", i);
+    }
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 115
+
+### **Question:**
+
+> ***Write a program to illustrate isprint() and iscntrl() functions.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#include <ctype.h>
+int main()
+{
+    char ch = 'a';
+    if (isprint(ch)) {
+        printf("%c is printable character\n", ch);
+    } else {
+        printf("%c is not printable character\n", ch);
+    }
+  
+    if (iscntrl(ch)) {
+        printf("%c is control character\n", ch);
+    } else {
+        printf("%c is not control character", ch);
+    }
+    return (0);
+}
+
+```
+----------------------------------------
 
 
 
