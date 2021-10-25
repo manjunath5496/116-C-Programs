@@ -3118,6 +3118,85 @@ printf ("No\n");
 ```
 ----------------------------------------
 
+# Question 95
+
+### **Question:**
+
+> ***Write a program to Demonstrate goto Statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+int main()
+{
+   int sum=0;
+   for(int i = 0; i<=10; i++){
+	sum = sum+i;
+	if(i==4){
+	   goto addition;
+	}
+   }
+
+   addition:
+   printf("%d", sum);
+
+   return 0;
+}
+
+```
+----------------------------------------
+
+# Question 96
+
+### **Question:**
+
+> ***Write a program to Demonstrate Infinite Loop.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main() {
+int i = 10;
+for( ; ;) {
+printf("%d\n",i);
+}
+    return 0;
+}
+```
+----------------------------------------
+
+
+# Question 97
+
+### **Question:**
+
+> ***Write a program to Demonstrate Macro Substitution.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#define A 15
+int main()
+{
+  int x;
+  x=A;
+  printf("%d",x);
+   return 0;
+}
+
+```
+----------------------------------------
+
 
 
 
