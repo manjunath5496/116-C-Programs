@@ -3652,7 +3652,93 @@ int main()
 ```
 ----------------------------------------
 
+# Question 111
 
+### **Question:**
+
+> ***Write a program to check whether the entered character is a character with graphical representation or not.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+ 
+int main()
+{
+    char a;
+    printf( "Enter a character : ");
+    scanf( "%c", &a );
+    if( isgraph(a) ) {
+        printf( "%c is a character with graphical representation.", a );
+    }
+    else
+    {
+        printf( "%c is NOT a character with graphical representation.", a );
+    }
+    return 0;
+}
+```
+----------------------------------------
+
+# Question 112
+
+### **Question:**
+
+> ***Write a program to List all Printable Characters Using isprint() function.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <ctype.h>
+#include <stdio.h>
+int main()
+{
+   int i;
+   for(i = 1; i <= 127; i++)
+   	if (isprint(i)!= 0)
+             printf("%c ", i);
+   return 0;
+}
+```
+----------------------------------------
+
+
+# Question 113
+
+### **Question:**
+
+> ***Write a program to check whether the entered character is a hexadecimal digit character or not..***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<ctype.h>
+ 
+int main()
+{
+    char a;
+    printf( "Enter a character : ");
+    scanf( "%c", &a );
+    if(isxdigit(a)) {
+        printf( "%c is a hexadecimal digit character.", a );
+    }
+    else
+    {
+        printf( "%c is NOT a hexadecimal digit character.", a );
+    }
+    return 0;
+}
+
+```
+----------------------------------------
 
 
 
