@@ -1748,7 +1748,7 @@ int main()
 int main(){
     
   char ch; 
-    printf("Enter the alphabet : ");
+    printf("Enter a alphabet : ");
  
     scanf("%c",&ch);
  
