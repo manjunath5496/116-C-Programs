@@ -3553,7 +3553,41 @@ int main()
 ```
 ----------------------------------------
 
+# Question 108
 
+### **Question:**
+
+> ***Write a program to check whether the entered Character is Alphabet or Digit.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+#include<ctype.h>
+
+int main()
+{
+  char ch;
+  printf("Enter a character :  ");
+  scanf("%c", &ch);
+  
+  if (isdigit(ch))
+  {
+  	printf("\n %c is a Digit", ch);  	
+  }
+  else if ( isalpha(ch) )
+  {
+  	printf("\n %c is an Alphabet", ch);  	
+  }    
+  else
+    printf("\n %c is not an Alphabet, or a Digit", ch);
+  
+  return 0;
+}
+```
+----------------------------------------
 
 
 
