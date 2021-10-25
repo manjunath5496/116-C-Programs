@@ -2919,6 +2919,119 @@ int main()
 ```
 ----------------------------------------
 
+# Question 89
+
+### **Question:**
+
+> ***Write a program to accept the height of a person in centimeter and categorize the person according to their height.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   float height;
+ 
+    printf("Enter the height of the person (in cm) :");
+    scanf("%f", &height);
+    if (height < 150.0) {
+        printf("The person is Dwarf. \n");
+    }
+    else if ((height >= 150.0) && (height < 165.0)) {
+        printf("The person is  average heighted. \n");
+    }
+    else if ((height >= 165.0) && (height <= 195.0)) {
+        printf("The person is taller. \n");
+    }
+    else
+    {
+        printf("Abnormal height.\n");
+    }
+        return 0;
+}
+
+```
+----------------------------------------
+
+# Question 90
+
+### **Question:**
+
+> ***Write a program to compute the area of the various geometrical shape.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include <stdio.h>
+
+int main()
+{
+   int choice,r,l,w,b,h;
+      float area;
+      printf("Enter 1 for area of circle\n");
+      printf("Enter 2 for area of rectangle\n");
+      printf("Enter 3 for area of triangle\n");
+      printf("Enter your choice : ");
+      scanf("%d",&choice);
+      
+      switch(choice)
+      {
+           case 1:
+                 printf("Enter the radius of the circle : ");
+                 scanf("%d",&r);
+                 area=3.14*r*r;
+                 break;
+            case 2:
+                  printf("Enter the length and width of the rectangle : ");
+                  scanf("%d%d",&l,&w);
+                  area=l*w;
+                  break;
+            case 3:
+                  printf("Enter the base and height of the triangle :");
+                  scanf("%d%d",&b,&h);
+                  area=0.5*b*h;
+                  break;
+          }
+          printf("The area is : %f\n",area);
+        return 0;
+}
+
+```
+----------------------------------------
+
+
+# Question 91
+
+### **Question:**
+
+> ***Write a program to Find Length of String Using Library Function.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```C language
+#include<stdio.h>
+#include<string.h>
+ 
+int main() {
+   char str[100];
+   int len;
+   printf("\nEnter the String : ");
+   scanf("%s", str);
+   len = strlen(str);
+   printf("\nLength of Given String : %d", len);
+   return(0);
+}  
+```
+----------------------------------------
+
 
 
 
